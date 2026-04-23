@@ -26,4 +26,4 @@ A machine learning web application that classifies text messages as either Spam 
 3. Open http://127.0.0.1:5000 in your browser.
 
 ## Usage
-Paste any text message into the input field and click Analyze. The result will display as either SPAM or HAM. Refreshing the page clears the result.
+Paste any text message into the input field and click Analyze. The result will display as either SPAM or HAM.
