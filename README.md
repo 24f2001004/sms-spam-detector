@@ -2,7 +2,8 @@
 
 A machine learning web application that classifies text messages as either Spam or Ham.
 
-COLLAB LINK: https://colab.research.google.com/drive/1ldwYSgxznRepdRQpUNudnzLRShaE1dGN?usp=sharing
+Hosted on: https://sms-spam-detector-co5p.onrender.com/
+COLAB LINK: https://colab.research.google.com/drive/1ldwYSgxznRepdRQpUNudnzLRShaE1dGN?usp=sharing
 
 ## Setup
 1. Ensure Python is installed.
@@ -29,3 +30,4 @@ COLLAB LINK: https://colab.research.google.com/drive/1ldwYSgxznRepdRQpUNudnzLRSh
 
 ## Usage
 Paste any text message into the input field and click Analyze. The result will display as either SPAM or HAM.
+Sample Spam message: WINNER! You've won a $1000 Walmart gift card. Click here to claim now!
