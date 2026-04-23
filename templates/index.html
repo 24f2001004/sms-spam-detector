@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS Spam Detector</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-row">
+            <h2>Spam SMS Detector</h2>
+            <div class="social-links">
+                <a href="https://github.com/24f2001004" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/daksh-jadia-a46a6330b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/daksh.vfx/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <p>Paste a text message below to classify wether its spam or not.</p>
+
+        <form method="POST">
+            <textarea id="messageBox" name="message" placeholder="Type your text message here..." required></textarea>
+            <button type="submit">Analyze Message</button>
+        </form>
+
+        {% with messages = get_flashed_messages() %}
+            {% for prediction in messages %}
+                <div class="result {% if 'SPAM' in prediction %}spam{% else %}ham{% endif %}">
+                    {{ prediction }}
+                </div>
+            {% endfor %}
+        {% endwith %}
+    </div>
+
+</body>
+</html>
