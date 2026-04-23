@@ -31,5 +31,5 @@ COLAB LINK: https://colab.research.google.com/drive/1ldwYSgxznRepdRQpUNudnzLRSha
 3. Open http://127.0.0.1:5000 in your browser.
 
 ## Usage
-Paste any text message into the input field and click Analyze. The result will display as either SPAM or HAM.
+Paste any text message into the input field and click Analyze. The result will display as either SPAM or HAM.<br>
 Sample Spam message: WINNER! You've won a $1000 Walmart gift card. Click here to claim now!
