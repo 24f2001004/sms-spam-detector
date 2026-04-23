@@ -1,6 +1,7 @@
 # Spam SMS Detector
 
 A machine learning web application that classifies text messages as either Spam or Ham.
+
 COLLAB LINK: https://colab.research.google.com/drive/1ldwYSgxznRepdRQpUNudnzLRShaE1dGN?usp=sharing
 
 ## Setup
